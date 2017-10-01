@@ -25,7 +25,9 @@ SECRET_KEY = 'terbk(bg_mg-&%&&j!1@d_q0s*50b-a*1c0=kh^fj%kdocrhc+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'persimmon.pythonanywhere.com'
+]
 
 
 # Application definition
@@ -37,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
